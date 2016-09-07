@@ -73,7 +73,7 @@ $(document).ready(function(){
 				$('h2#feedback').text("Warmer");	
 			}
 			else if (priorDifference==currentDifference){
-				$('h2#feedback').text("That's the same number!");	
+				$('h2#feedback').text("Same difference!");	
 			}
 			else{
 				$('h2#feedback').text("Colder");	
