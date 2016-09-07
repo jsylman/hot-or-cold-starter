@@ -87,7 +87,7 @@ $(document).ready(function(){
 			return false;
 		}
 		else if(number<1 || number>100){
-			alert("Out of Range");
+			alert("Out of Range - 1 to 100");
 			return false;
 		}
 		else if(number%1!=0){
